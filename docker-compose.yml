@@ -12,3 +12,7 @@ services:
       - TZ=${TZ}
     ports:
       - ${DB_PORT}:3306
+
+  app:
+    build: ./docker/app
+    command: /bin/sh -c "while :; do sleep 10; done"
