@@ -1,0 +1,11 @@
+naem: テストテンプレート
+description: テストテンプレートの説明
+title: "[テスト]"
+projects: ["YHiroyuki/1"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 概要
+        - テストテンプレートの説明
+        - ここに説明を記載してください。
